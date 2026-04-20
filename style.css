@@ -97,35 +97,6 @@ a {
   font-size: 1.15rem;
 }
 
-.buttons {
-  display: flex;
-  gap: 18px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.btn {
-  padding: 14px 30px;
-  border-radius: 16px;
-  background: #ff4d6d;
-  color: white;
-  font-size: 1.1rem;
-  font-weight: bold;
-  transition: 0.3s ease;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-
-.outline {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-}
-
-.btn:hover,
-.btn:focus {
-  transform: scale(1.08);
-  background: #ff758f;
-  outline: none;
-}
 
 .section {
   max-width: 1200px;
@@ -211,22 +182,13 @@ a {
   color: #ffd1d9;
 }
 
-.project-card .tag {
-  display: inline-block;
-  margin-bottom: 12px;
-  padding: 8px 14px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.14);
-  color: #ffdce2;
-  font-size: 0.9rem;
-}
 .project-link {
   display: inline-block;
   margin: 10px 0 15px;
   padding: 8px 16px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.08); /* 👈 نفس كروت الموقع */
-  color: #ffd1d9; /* 👈 وردي فاتح يطلع على البرغندي */
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffd1d9;
   font-weight: bold;
   font-size: 14px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -357,16 +319,6 @@ a {
     font-size: 1.1rem;
   }
 
-  .btn {
-    width: 100%;
-    max-width: 220px;
-    margin: 0 auto;
-  }
-
-  .buttons {
-    flex-direction: column;
-    align-items: center;
-  }
 
   .section-title h3 {
     font-size: 1.8rem;
